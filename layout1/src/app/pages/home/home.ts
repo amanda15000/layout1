@@ -15,11 +15,11 @@ export class Home {
     },
     {
       tecnologia:'CSS',
-      descricao:''
+      descricao:'CSS (Cascading Style Sheets, ou Folhas de Estilo em Cascata) é uma linguagem de estilo utilizada para definir a aparência visual de documentos HTML.'
     },
     {
       tecnologia:'JavaScript',
-      descricao:'Lógica da página'
+      descricao:'JavaScript é uma linguagem de programação interpretada de alto nível, essencial para criar interatividade e dinamismo em páginas web.'
     }
   ];
 
