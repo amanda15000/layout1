@@ -4,15 +4,19 @@
         <p class="mt-3 text-leg text-violet-500">Conheça abaixo algumas tecnologias Front End</p>
 
     </header>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
- gap-6">
- <article *ngFor="let item of requisicao">
-    <div>
-        <span>{{item.tecnologia}}
-
-        </span>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+  <article 
+    *ngFor="let item of requisicao" 
+    class="group bg-white border border-gray-200 rounded-2xl p-5 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+  >
+    <div class="flex flex-col h-full">
+      <h3 class="text-lg font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+        {{item.tecnologia}}
+      </h3>
+      <p class="mt-2 text-sm text-gray-500 leading-relaxed">
+        {{item.descricao}}
+      </p>
     </div>
- </article>
-
+  </article>
 </div>
 </main> 
